@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+:root {
+  --secondary: #8B5A3C;
+  --text: #6B625C;
+  --heading: #2B211C;
+  --background: #ffffff;
+
+  --primary-gradient: linear-gradient(
+    135deg,
+    #A66A45,
+    #6F3F28
+  );
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+.line-clamp-4 {
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+}
+
+.backgroundcol {
+  background: linear-gradient(
+    135deg,
+    #A66A45,
+    #6F3F28
+  );
+}
+
+.batchcolor {
+  background-color: #F8F3EF;
+}
+.batchcolortwo {
+  background-color: #f3ebe4;
+}
+.batchcolor-hover:hover {
+  background-color: #F8F3EF;
+}
+.imagegradient {
+  background: linear-gradient(
+    to top,
+    rgba(111, 63, 40, 0.95),
+    rgba(166, 106, 69, 0.45),
+    transparent
+  );
+}
+.teamgradient {
+  background: linear-gradient(
+    to top,
+    rgba(111, 63, 40, 0.95),
+    rgba(166, 106, 69, 0.45),
+    transparent
+  );
+}
+
+.teamglow {
+  background: rgba(139, 90, 60, 0.4);
+}
