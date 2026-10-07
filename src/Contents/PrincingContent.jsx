@@ -50,7 +50,7 @@ useGSAP(() => {
     {/* Heading */}
     <div className="text-center max-w-2xl mx-auto mb-5">
       <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[var(--secondary)]">
-        Our Treatments
+        Our Pricing
       </p>
 
       <h2 className="mt-3 text-2xl sm:text-3xl font-bold text-slate-900" ref={pricecontentone}>

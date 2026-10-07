@@ -42,31 +42,23 @@ const ServicesMainComponents = () => {
   
       <div className='w-[97%] pt-12' ref={sectionRef}>
         <div className='flex pt-10 justify-center items-center w-full gap-10'>
-          {/* <div className='px-4 lg:px-8' ref={boxRef}>
-            <h1 className='text-2xl lg:text-3xl font-bold lg:px-3 p-1 text-[var(--secondary)]'>
-              Our Dental Treatments & Specialities
-            </h1>
-            <p className='text-[var(--text)] lg:px-3 p-1 pt-4 w-full lg:w-[85%]'>
-              We provide complete dental care for all ages — from simple cleaning to advanced implant and smile makeover treatments. Each procedure is done with expert care, modern equipment, and full focus on your comfort and safety.
-            </p>
-          </div> */}
   <div className="text-center max-w-2xl mx-auto mb-12" ref={boxRef}>
-      {/* <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[var(--secondary)]">
-        Book Appoitment
-      </p> */}
+     <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[var(--secondary)]">
+         Treatment result
+      </p>
 
-      <h2 className="mt-3 text-2xl sm:text-3xl font-bold text-[var(--secondary)]" >
+      <h2 className="mt-3 text-2xl sm:text-3xl font-bold" >
          Our Dental Treatments & Specialities
       </h2>
 
       <p className="mt-4 text-slate-600">
- We provide complete dental care for all ages — from simple cleaning to advanced implant and smile makeover treatments. Each procedure is done with expert care, modern equipment, and full focus on your comfort and safety.
+ Complete dental care for all ages, from routine cleaning to advanced treatments, with expert care and modern equipment.
       </p>
     </div>
 
           
         </div>
-        <div className='pt-12'>
+        <div className='pt-6'>
           <ServicesCard />
         </div>
       </div>

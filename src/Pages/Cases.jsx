@@ -18,14 +18,17 @@ const Cases = () => {
       }, { scope: sectionRef });
   return (
     <div>
- <div className=" lg:pt-14 text-center max-w-2xl mx-auto mb-5 pt-30" ref={sectionRef} >
+ <div className=" lg:pt-18 text-center max-w-2xl mx-auto mb-5 pt-30" ref={sectionRef} >
   
+    <p className="text-sm font-semibold uppercase tracking-[0.2em] text-[var(--secondary)]">
+         Treatment result
+      </p>
 
-      <h2 className="mt-3 text-2xl sm:text-3xl font-bold text-[var(--secondary)]" >
-        Patient Smile Transformations
+      <h2 className="mt-4 text-2xl sm:text-3xl font-bold" >
+       Smile Transformations
       </h2>
 
-      <p className="mt-4 text-slate-600">
+      <p className="mt-4">
 Explore real before-and-after cases that showcase our expertise, advanced treatments, and commitment to creating healthy, confident smiles.
 
       </p>
